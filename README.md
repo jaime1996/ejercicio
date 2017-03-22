@@ -1,24 +1,35 @@
 # ejercicio
 package calculadora;
 
+import java.util.Scanner;
+
 
 public class Calculadora {
-    int n1=2;
-    int n2=3;
-    
+    int n1;
+    int n2;
     int sumar(){
+        Scanner leer=new Scanner(System.in);
+        System.out.println("ingrese numero 1");
+        n1=leer.nextInt();
+        System.out.println("ingrese numero 2");
+        n2=leer.nextInt();
+
         return n1+n2;
+        
     }
     int restar(){
-    return n1+n2;
+        
+    return n1-n2;
     
     }
     int multiplicar(){
-    return n1+n2;
+       
+    return n1*n2;
     
     }
     int dividir(){
-    return n1+n2;
+        
+    return n1/n2;
     
     }
     
@@ -34,3 +45,4 @@ public class Calculadora {
     }
     
 }
+
