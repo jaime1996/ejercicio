@@ -46,3 +46,30 @@ public class Calculadora {
     
 }
 
+
+package carrito;
+
+
+public class Carrito {
+
+   int[] precios={1000,5000,4000,1000,30000};
+   int[]cantidad={};
+   
+   public int agregarcantidad(){
+       for(int n1){
+       }
+   
+   }
+   
+   public int calculartotal(){
+   }
+   
+   
+   
+    
+    
+    
+    
+    
+}
+
